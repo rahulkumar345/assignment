@@ -1,0 +1,156 @@
+
+.container {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 10rem;
+ 
+  height: 475px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://media.istockphoto.com/id/640267784/photo/bank-building.jpg?s=612x612&w=0&k=20&c=UTtm4t6WR-MLwO6ATq5l6n3SoCc6HpaClEFZMxO1Nek=);
+  
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 1.7rem;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+p{
+  color: #06f7c3;
+  font-size: 30px;
+}
+
+.nav-link {
+  margin-left: 1rem;
+  font-size: .7rem;
+  font-weight: 400;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.navbar-brand,
+a:hover,
+li a.active {
+  color: rgb(254, 249, 249) !important;
+  border-bottom: 2px solid #0b0b0a;
+}
+
+.footer-padding {
+  padding-bottom: 60px;
+}
+
+.footer {
+  position: sticky;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #C4A484;
+}
+
+.footer p {
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  font-size: 16px;
+  color: #fff;
+}
+
+#home-pg-img {
+  width: 100%;
+  height: 500px;
+}
+
+.row {
+  text-align: center;
+}
+
+.customer-header-row,
+.customer-row {
+  padding: 1rem;
+  background-color: #dff9fb;
+  margin: 10px auto auto;
+  width: 70%;
+}
+
+.customer-header-row,
+.customer-row:hover {
+  background-color: #C4A484;
+}
+
+.first-cust {
+  background-color: #dff9fb;
+}
+
+.btn {
+  background-color: #C4A484;
+  box-shadow: 1px 2px #fdfcfc;
+}
+
+.btn:active,
+.btn:focus,
+.btn:focus:active {
+  background-color: #C4A484;
+  box-shadow: 0 2px #f7f2f2;
+}
+
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+  box-shadow: none;
+}
+
+.btn:active {
+  background-color: #C4A484;
+  transform: translate(1px, 2px);
+}
+
+.btn:hover {
+  background-color: #C4A484;
+}
+
+.success {
+  text-align: center;
+  margin: 14% auto;
+  background-color: #4aeecd;
+  width: fit-content;
+  padding: 3rem;
+  border-radius: 5px;
+}
+
+.success-a {
+  text-decoration: none;
+  color: #fff;
+  font-size: large;
+}
+
+
+.transaction-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+.isDisabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+  pointer-events: none;
+}
+.card-body{
+  color: #fdfcfc;
+width: fit-content;
+justify-content: center;
+  
+}
